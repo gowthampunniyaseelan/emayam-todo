@@ -1,0 +1,27 @@
+/* TaskItem.css */
+
+li {
+  list-style-type: none; /* Remove default list styling */
+  padding: 15px;
+  margin: 10px 0; /* Margin between task items */
+  border: 1px solid #007bff; /* Border color */
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s ease; /* Smooth transform transition */
+}
+
+li:hover {
+  transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+h3 {
+  margin: 0; /* Remove default margin */
+  color: #007bff; /* Color for task title */
+}
+
+p {
+  margin: 5px 0 0; /* Margin for task description */
+  color: #555; /* Darker color for description */
+  line-height: 1.5; /* Improved line height for readability */
+}
