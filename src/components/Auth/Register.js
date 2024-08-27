@@ -24,7 +24,6 @@ function Register() {
 
   const handleRoleChange = (e) => {
     setRole(e.target.value);
-    console.log("Selected Role:", e.target.value); // Log the selected value
   };
 
   return (

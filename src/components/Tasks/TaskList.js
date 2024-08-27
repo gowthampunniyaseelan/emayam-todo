@@ -1,8 +1,6 @@
 import React from 'react';
 import "../Tasks/TaskList.css"
 function TaskList({ tasks, onEdit, onDelete }) {
-  console.log(tasks);
-  
   return (
     <div>
       <h3>Your Tasks</h3>

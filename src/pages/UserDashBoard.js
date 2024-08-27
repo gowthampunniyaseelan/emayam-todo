@@ -24,14 +24,12 @@ function UserDashboard() {
   };
 
   const handleUpdate = async (task) => {
-    console.log("i am update task ",task);
     await updateTask(currentTask.id,task);
     setCurrentTask(null);
     fetchTasks();
   };
 
   const handleEdit = (task) => {
-    console.log("this is current task ",task);
     setCurrentTask(task);
   };
 
