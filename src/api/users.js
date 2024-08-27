@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api/users';
+const API_URL = 'https://emayam-todo-backend.onrender.com/api/users';
 
 export const getUsers = () => {
   return axios.get(`${API_URL}`);

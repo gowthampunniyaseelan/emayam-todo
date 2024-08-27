@@ -1,6 +1,6 @@
 import axiosInstance from './axiosConfig';
 
-const API_URL = 'http://localhost:8080/api/tasks';
+const API_URL = 'https://emayam-todo-backend.onrender.com/api/tasks';
 
 export const getTasks = async () => {
   try {
